@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS BORDER KULLANIMI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .solid-blue {
+      border: 2px solid #336699; /* Düz mavi çerçeve */
+      border-radius: 10px; /* Çerçeve köşe yuvarlama */
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .dotted {
+      border: 2px dotted #336699; /* Noktalı mavi çerçeve */
+      border-radius: 10px; /* Çerçeve köşe yuvarlama */
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .double-blue {
+      border: 2px double #336699; /* Çift çizgili mavi çerçeve */
+      border-radius: 10px; /* Çerçeve köşe yuvarlama */
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .dashed {
+      border: 2px dashed blue; /* Kesikli mavi çerçeve */
+      border-radius: 10px; /* Çerçeve köşe yuvarlama */
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #336699;
+      text-align: center;
+      border: 2px solid #336699; /* Düz mavi çerçeve */
+      border-radius: 10px; /* Çerçeve köşe yuvarlama */
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="container">
+
+    <div class="solid-blue">
+      <h1>CSS BORDER KULLANIMI</h1>
+    </div>
+
+    <div class="solid-blue">
+      <strong>Soru 1:</strong>
+      <p>CSS Nedir?</p>
+    </div>
+    <div class="solid-blue">
+      <strong>Cevap 1:</strong>
+      <p>CSS, "Cascading Style Sheets" kelimelerinin kısaltmasıdır ve web sayfalarını nasıl görüntüleyeceğimizi belirlemek için kullanılan bir stil dilidir. HTML veya XML gibi işaretleme dilleriyle birlikte kullanılarak web sayfalarını düzenlemek ve stil vermek için kullanılır. CSS, bir web sayfasındaki öğelerin (HTML elemanları) görünümünü, konumunu ve davranışını kontrol etmeye yardımcı olur. Örneğin, metin boyutları, renkler, kenar boşlukları, arka plan resimleri ve sayfa düzeni gibi stil özelliklerini belirleyebiliriz. CSS, ayrı bir dosyada (genellikle .css uzantılı) veya doğrudan HTML belgesinin içinde yer alabilir.</p>
+    </div>
+
+    <div class="solid-blue">
+      <strong>Soru 2:</strong>
+      <p>CSS özellikleri ve alt başlıkları nelerdir?</p>
+    </div>
+    <div class="solid-blue">
+      <strong>Cevap 2:</strong>
+      <p>*Metin Stili: color: Metin rengini belirler. font-family: Metnin yazı tipini belirler. font-size: Metin boyutunu belirler. font-weight: Metin kalınlığını belirler. Arka Plan ve Kenarlık: background-color: Arka plan rengini belirler.
+        border: Bir elemanın kenarlık özelliklerini belirler. border-radius: Bir elemanın köşe yuvarlaklığını belirler. 
+        *Boşluk ve Açıklama: margin: Elemanın dışındaki boşluğu belirler. padding: Elemanın içindeki boşluğu belirler. 
+        *Gösterim ve Pozisyonlama: isplay: Elemanın görüntülenme türünü belirler. position: Elemanın pozisyonunu belirler.
+        *Liste Öğeleri: list-style-type: Liste öğelerinin gösterim biçimini belirler.
+        </p>
+    </div>
+
+    <div class="dotted">
+      <strong>Soru 3:</strong>
+      <p>CSS Border açıklayınız?</p>
+    </div>
+    <div class="dotted">
+      <strong>Cevap 3:</strong>
+      <p>CSS border özelliği, bir HTML elemanının kenarlık (border) özelliklerini belirlemek için kullanılır. Bu özellik, web sayfalarındaki öğeleri çerçevelemek, vurgulamak veya sınırlamak için kullanılır. border özelliği, bir veya birden fazla kenarlık stilini, genişliğini ve rengini belirtmenizi sağlar.Yani CSS border özelliği bir HTML elementinin kenar / sınır çizgisinin kalınlığını, şeklini, rengini ayarlamaya yarar.</p>
+    </div>
+
+    <div class="dotted">
+      <strong>Soru 4:</strong>
+      <p>CSS Border genel söz dizimi nedir?</p>
+    </div>
+    <div class="dotted">
+      <strong>Cevap 4:</strong>
+      <p>Border özelliğinin genel sözdizimini söylemek gerekirse: border: [genişlik] [stil] [renk]; Bu üç özelliği söylemem gerekirse; Genişlik (Width): Kenarlığın kalınlığını belirtir. Örneğin, 2px, 3px gibi bir sayı veya thin, medium, thick gibi önceden tanımlanmış terimler kullanılabilir. Stil (Style): Kenarlığın stili veya deseni. Örneğin, solid (düz çizgi), dashed (kesikli çizgi), dotted (noktalı çizgi), double (çift çizgi) gibi terimler kullanılabilir. Renk (Color): Kenarlığın rengini belirtir. CSS renk değerleri kullanılabilir. Örneğin, red, #00ff00 gibi.</p>
+    </div>
+
+    <div class="dashed">
+      <strong>Soru 5:</strong>
+      <p>Çerçeve stilleri nelerdir?</p>
+    </div>
+    <div class="dashed">
+      <strong>Cevap 5:</strong>
+      <p>CSS'de kullanılan çerçeve (border) stilleri, bir HTML elemanının kenarlık özelliklerini belirlerken kullanılır.Açıklamam gerekirse yaygın olarak kullanılan bazı çerçeve stilleri:
+        *Solid (Düz Çizgi):
+        border-style: solid;
+        Bu, düz, sürekli bir çizgi oluşturur.
+        
+        div {
+          border-style: solid;
+        }
+        
+        *Dashed (Kesikli Çizgi):
+        border-style: dashed;
+        Bu, kesikli bir çizgi oluşturur.
+        
+        div {
+          border-style: dashed;
+        }
+        
+        *Dotted (Noktalı Çizgi):
+        border-style: dotted;
+        Bu, noktalı bir çizgi oluşturur.
+        
+        div {
+          border-style: dotted;
+        }
+        
+        *Double (Çift Çizgi):
+        border-style: double;
+        Bu, iki katmanlı bir çift çizgi oluşturur.
+        
+        div {
+          border-style: double;
+        }
+        
+        *Groove (Yivli):
+        border-style: groove;
+        Bu, içeri çekilmiş gibi görünen bir yiv oluşturur.
+        
+        div {
+          border-style: groove;
+        }
+        
+        *Ridge (Sırtlı):
+        border-style: ridge;
+        Bu, dışa doğru çıkık gibi görünen bir sırt oluşturur.
+        
+        div {
+          border-style: ridge;
+        }
+        
+        *Inset (İçe Gömülü):
+        border-style: inset;
+        Bu, içe gömülmüş gibi görünen bir çizgi oluşturur.
+        
+        div {
+          border-style: inset;
+        }
+        
+        *Outset (Dışa Doğru):
+        border-style: outset;
+        Bu, dışa doğru çıkık gibi görünen bir çizgi oluşturur.
+        
+        div {
+          border-style: outset;
+        }
+        </p>
+    </div>
+
+  </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS BORDER KULLANIMI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .solid-blue {
+      border: 2px solid #336699; /* Düz mavi çerçeve */
+      border-radius: 10px; /* Çerçeve köşe yuvarlama */
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .dotted {
+      border: 2px dotted #336699; /* Noktalı mavi çerçeve */
+      border-radius: 10px; /* Çerçeve köşe yuvarlama */
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .double-blue {
+      border: 2px double #336699; /* Çift çizgili mavi çerçeve */
+      border-radius: 10px; /* Çerçeve köşe yuvarlama */
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .dashed {
+      border: 2px dashed blue; /* Kesikli mavi çerçeve */
+      border-radius: 10px; /* Çerçeve köşe yuvarlama */
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #336699;
+      text-align: center;
+      border: 2px solid #336699; /* Düz mavi çerçeve */
+      border-radius: 10px; /* Çerçeve köşe yuvarlama */
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .plain-blue {
+      border: 2px solid #336699;
+      border-radius: 10px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="container">
+
+    <div class="plain-blue">
+      <strong>Soru 6:</strong>
+      <p>Örnek kodları nelerdir?</p>
+    </div>
+    <div class="plain-blue">
+      <strong>Cevap 6:</strong>
+      <p>body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .solid-blue {
+        border: 2px solid #336699; /* Düz mavi çerçeve */
+        border-radius: 10px; /* Çerçeve köşe yuvarlama */
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+  
+      .dotted {
+        border: 2px dotted #336699; /* Noktalı mavi çerçeve */
+        border-radius: 10px; /* Çerçeve köşe yuvarlama */
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+  
+      .double-blue {
+        border: 2px double #336699; /* Çift çizgili mavi çerçeve */
+        border-radius: 10px; /* Çerçeve köşe yuvarlama */
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+  
+      .dashed {
+        border: 2px dashed blue; /* Kesikli mavi çerçeve */
+        border-radius: 10px; /* Çerçeve köşe yuvarlama */
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+  
+      h1 {
+        color: #336699;
+        text-align: center;
+        border: 2px solid #336699; /* Düz mavi çerçeve */
+        border-radius: 10px; /* Çerçeve köşe yuvarlama */
+        padding: 10px;
+        margin-bottom: 20px;
+      }</p>
+    </div>
+
+    <div class="dotted">
+      <strong>Soru 7:</strong>
+      <p>Kaynakça nedir?</p>
+    </div>
+    <div class="dotted">
+      <strong>Cevap 7:</strong>
+      <p>*kodlamavakti.com  *academy.patika.dev  *uzmanimakademi.net  *sadikturan.com</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
+<!-- Soru 7 -->
+<div class="dotted">
+  <strong>Soru 7:</strong>
+  <p>Kaynakça nedir?</p>
+</div>
+<div class="dotted">
+  <strong>Cevap 7:</strong>
+  <p>*kodlamavakti.com  *academy.patika.dev  *uzmanimakademi.net  *sadikturan.com</p>
+</div>
+
+<!-- YouTube Videoları -->
+<div class="youtube-video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/kbpU37tvdPk" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="youtube-video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/rr0X58xklVs" frameborder="0" allowfullscreen></iframe>
+</div>
